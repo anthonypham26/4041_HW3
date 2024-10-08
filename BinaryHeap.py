@@ -37,8 +37,8 @@ class BinaryHeap:
     def pop(self):
         """Pops the optimal element (min or max) and heapifies the full heap."""
         if (len(self.heap) > 0):
-            top = self.heap[0];
-            self.heap[0] = self.heap[len(self.heap)-1];
+            top = self.heap[0]
+            self.heap[0] = self.heap[len(self.heap)-1]
             self.heap.pop()
             self.heapify(0)
             return top
@@ -85,7 +85,7 @@ def max_compare(a, b):
     return a > b
 
 def min_compare(a, b):
-    """Comparison function for a max heap."""
+    """Comparison function for a min heap."""
     return a < b
 
 
