@@ -20,7 +20,7 @@ class BinaryHeap:
     def parent(self, index):
         """Parent node"""
         if index > 0:
-            return (index+1)/2 - 1
+            return (index+1)//2 - 1
         else:
             return -1
 
@@ -56,7 +56,7 @@ class BinaryHeap:
             optimal = R
         if (optimal != index):
             tmp = self.heap[index]
-            self.heap[index] = self.heap[optimal];
+            self.heap[index] = self.heap[optimal]
             self.heap[optimal] = tmp
             self.heapify(optimal)
 

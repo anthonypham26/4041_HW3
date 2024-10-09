@@ -35,8 +35,8 @@ def sort_string_alpha(string_list):
 
 #Problem C:
 def secondDigit_min_compare(a, b):
-    a = int(str(abs(a))[1])
-    b = int(str(abs(b))[1])
+    a = int(str(abs(a))[1]) if len(str(abs(a))) > 1 else -1
+    b = int(str(abs(b))[1]) if len(str(abs(b))) > 1 else -1
     return a < b
 
 def secondDigit_low_to_high(int_list):
