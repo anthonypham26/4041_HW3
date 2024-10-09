@@ -1,0 +1,23 @@
+#Problem A
+                85.361
+            38.644     14.696
+        33.724  -43.779  -46.629  -35.794
+    -16.915 0.279 -60.172
+
+[85.361, 38.644, 33.724, 14.696, 0.279, -16.915, -35.794, -43.779, -46.629, -60.172]
+
+#Problem B
+            ava
+        isabella     Bron
+    Mason  James  Ethan  Lepookie
+ Olivia Noah liam
+
+['ava', 'Bron', 'Ethan', 'isabella', 'James', 'Lepookie', 'liam', 'Mason', 'Noah', 'Olivia']
+
+#Problem C
+            613
+        125     12
+    231  14  -145  38
+ 898 -277 96
+
+[613, 125, 12, 231, 14, -145, 96, -277, 38, 898]

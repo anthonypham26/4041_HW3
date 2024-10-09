@@ -20,7 +20,7 @@ class BinaryHeap:
     def parent(self, index):
         """Parent node"""
         if index > 0:
-            return (index+1)/2 - 1
+            return (index+1)//2 - 1
         else:
             return -1
 
@@ -85,7 +85,7 @@ def max_compare(a, b):
     return a > b
 
 def min_compare(a, b):
-    """Comparison function for a max heap."""
+    """Comparison function for a min heap."""
     return a < b
 
 
