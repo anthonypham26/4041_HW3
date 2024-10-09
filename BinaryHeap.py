@@ -37,8 +37,8 @@ class BinaryHeap:
     def pop(self):
         """Pops the optimal element (min or max) and heapifies the full heap."""
         if (len(self.heap) > 0):
-            top = self.heap[0];
-            self.heap[0] = self.heap[len(self.heap)-1];
+            top = self.heap[0]
+            self.heap[0] = self.heap[len(self.heap)-1]
             self.heap.pop()
             self.heapify(0)
             return top
@@ -56,7 +56,7 @@ class BinaryHeap:
             optimal = R
         if (optimal != index):
             tmp = self.heap[index]
-            self.heap[index] = self.heap[optimal];
+            self.heap[index] = self.heap[optimal]
             self.heap[optimal] = tmp
             self.heapify(optimal)
 
