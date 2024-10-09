@@ -1,0 +1,63 @@
+Starting Heap:
+         1946
+    993    423
+  81  3  235  64
+ 0 70
+A) ADDING 5 to the heap
+          1946
+     993     423
+  81  5  235  64
+ 0 70 3
+A) ADDING 4041 to the heap
+           4041
+     1946     423
+  81  993  235  64
+ 0 70 3 5
+B) Popping off an item
+          1946
+     993     423
+  81  5  235  64
+ 0 70 3
+B) Popping off 2nd item
+         993
+    81    423
+  70  5  235  64
+ 0 3
+Printing out Extracted list:
+[4041, 1946]
+C) Adding Low Priority: 87
+          993
+     87     423
+  70  81  235  64
+ 0 3 5
+C) Adding Low Priority: 2
+           993
+     87     423
+  70  81  235  64
+ 0 3 5 2
+D) Adding High Priority: 999
+            999
+      87      993
+   70   81   423   64
+ 0 3 5 2 235
+D) Adding High Priority: 723
+             999
+      87      993
+   70   81   723   64
+ 0 3 5 2 235 423
+E) Popping off an item
+            993
+      87      723
+   70   81   423   64
+ 0 3 5 2 235
+E) Popping off 2nd item
+           723
+     87     423
+  70  81  235  64
+ 0 3 5 2
+High Priority Removed First
+[999, 993]
+           723
+     87     423
+  70  81  235  64
+ 0 3 5 2
