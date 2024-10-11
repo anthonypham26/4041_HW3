@@ -1,3 +1,3 @@
 Written By:
-Anthony Pham (pham0520)
-Aaron Bixler (bixle027)
+- Anthony Pham (pham0520)
+- Aaron Bixler (bixle027)
