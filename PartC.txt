@@ -1,0 +1,7 @@
+    Task(Task 4, priority=9, time=2, urgency=2)
+  Task(Task 5, priority=4, time=4, urgency=6)  Task(Task 3, priority=3, time=5, urgency=9)
+ Task(Task 2, priority=8, time=1, urgency=5) Task(Task 1, priority=5, time=3, urgency=7)
+Best task popped: Task(Task 4, priority=9, time=2, urgency=2)
+    Task(Task 5, priority=4, time=4, urgency=6)
+  Task(Task 2, priority=8, time=1, urgency=5)  Task(Task 3, priority=3, time=5, urgency=9)
+ Task(Task 1, priority=5, time=3, urgency=7)
